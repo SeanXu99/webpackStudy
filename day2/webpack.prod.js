@@ -8,7 +8,7 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 module.exports = {
     entry: {
         index: './src/index.js',
-        search: './src/search.js'
+        search: './src/index.js'
     },
     output: {
         path: path.join(__dirname, 'dist'),
@@ -111,8 +111,8 @@ module.exports = {
             }
         }),
         new HtmlWebpackPlugin({
-            template: path.join(__dirname, 'src/search.html'),
-            filename: 'search.html',
+            template: path.join(__dirname, 'src/index.html'),
+            filename: 'index.html',
             chunks: ['search'],
             inject: true,
             minify: {

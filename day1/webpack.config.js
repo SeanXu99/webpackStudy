@@ -5,7 +5,7 @@ const webpack =require('webpack');
 module.exports = {
     entry: {
         index: './src/index.js',
-        link: './src/search.js'
+        link: './src/index.js'
     },
     output: {
         path: path.join(__dirname, 'dist'),
