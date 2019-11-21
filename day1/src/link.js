@@ -6,7 +6,7 @@ import logo from './images/logo.png'
 
 class Link extends React.Component {
     render() {
-        return <div className="text">今日兮何夕 asdasdasd<img src={logo} alt=""/></div>;
+        return <div className="text">今日兮何夕aadasd<img src={logo} alt=""/></div>;
     }
 }
 
